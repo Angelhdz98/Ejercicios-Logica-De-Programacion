@@ -7,6 +7,8 @@ let i=0;
     if (!isNaN(valor) && Number.isInteger(valor) && valor==valorSecreto) {
       i++;
     }else if(!isNaN(valor) && Number.isInteger(valor) && valor!=valorSecreto && valor>1 && valor<100){
+
+      
         console.log("lo siento, ", valor, " no es el valor secreto");
     } 
     else if(valor<1|| valor>100){
